@@ -18,3 +18,7 @@ We need help! The process for contributing to these guides is covered in our [co
 ## Development
 
 These guides are served using Github Pages and Jekyll.
+
+```
+$ bundle exec jekyll serve
+```
