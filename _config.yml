@@ -7,47 +7,29 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Site Title"
+title                    : "EDGI Data Preservation Guides"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+name                     : "Enviromental Data and Governance Initiative (EDGI)"
+description              : "Technical guides for how to preserved government data"
+url                      : https://edgi-govdata-archiving.github.io/guides
+baseurl                  : /
+repository               : https://github.com/edgi-govdata-archiving/guides/tree/master
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
-# Social Sharing
-twitter:
-  username               :
-facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 : # Open Graph/Twitter default site image
-# For specifying social profiles
-# - https://developers.google.com/structured-data/customize/social-profiles
-social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
-
-
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Enviromental Data and Governance Initiative (EDGI)"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
   email            :
   uri              :
   codepen          :
-  github           :
+  github           : edgi-govdata-archiving
   keybase          :
-  twitter          :
+  twitter          : EnviroDGI
   youtube          : # "https://youtube.com/c/MichaelRoseDesign"
 
 
@@ -186,5 +168,4 @@ defaults:
       author_profile: true
       read_time: true
       comments: # true
-      share: true
       related: true
