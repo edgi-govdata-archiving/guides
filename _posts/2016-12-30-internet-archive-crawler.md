@@ -1,6 +1,6 @@
 ---
 title: "Understanding the Internet Archive Web Crawler"
-permalink: guide/internet-archive-crawler/
+permalink: internet-archive-crawler/
 excerpt: "In this document we explain what Heritrix can do, why it needs our help, and also how to identify documents and datasets that Heritrix can’t reach."
 author: Matt Price
 date: 2016-12-20
