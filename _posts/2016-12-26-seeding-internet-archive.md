@@ -8,16 +8,22 @@ modifiedDate: 2017-02-14
 
 This guide provides instructions for seeding web pages to Internet Archive [End of Term Archive](http://eotarchive.cdlib.org/) using IA's Bookmarklet or EDGI's [Chrome Nomination Extension](https://chrome.google.com/webstore/detail/nominationtool/abjpihafglmijnkkoppbookfkkanklok).
 
+<!-- This will add a Table of Contents -->
+{% include toc %}
+
 ## How the Web Crawler Works
 
-Review how the [What the Internet Archive Web Crawler Does](), in brief the Heritrix starts at a URL and saves anything within 3 clicks from that URL seed, Heritrix can’t:
-- It **can’t click web form buttons like “Go!” or “Submit”**.
+Review how the [What the Internet Archive Web Crawler Does](/internet-archive-crawler/), in brief the Heritrix starts at a URL and saves anything within 3 clicks from that URL seed, Heritrix can’t:
+
+- It **can’t click web form buttons like “Go!” or “Submit”**
 - It **doesn’t have a browser environment**
 - It **can’t follow links that don’t use the [Hypertext Transfer Protocol (HTTP)](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol)** (FTP is handled in a separate crawl)
 
 ## Files the Web Crawler Cannot Get
+{: #cannot-get}
 
 Based on the limitations above, there are 4 categories of datasets that the Web Crawler can not crawl:
+
   - **Databases**: Lots of the data on the web is stored in [relational databases](https://en.wikipedia.org/wiki/Relational_database) that are almost never available directly on the web.
   - **Visualization/Interactive Applications**: Lots of the most user-friendly sites display data in a [web application](https://en.wikipedia.org/wiki/Web_application) embedded in a web page.
   - **Document Collections**:  Often, government sites will present documents in a _user-friendly_ frame of some kind. When this is the case, the PDF itself is not usually accessible to the web crawler.
@@ -46,12 +52,13 @@ As a courtesy, please send a copy back to EDGI to update our [Agency Office Data
 1. Download EDGI's [Chrome Browser Extension](https://chrome.google.com/webstore/detail/nominationtool/abjpihafglmijnkkoppbookfkkanklok)
 
     People seeding may want to use these tools to see the work already done at the Internet Archive:
+
     - End of Term [Nomination Tool](http://digital2.library.unt.edu/nomination/eth2016/)
     - End of Term [Reports](http://digital2.library.unt.edu/nomination/eth2016/reports/)
     - Internet Archive's [Wayback Machine Chrome Extension](https://chrome.google.com/webstore/detail/wayback-machine/fpnmgdkabkmnadcjpehmlllkndpkmiak)
 
 1. Visit a page you wish to nominate. Click the extension icon near the address bar (the icon looks like a black magnifying glass). A form will pop up beneath the icon. If you're working with an [EDGI Agency Primer](https://envirodatagov.org/agencyprimers/), fill in the corresponding Agency Office Code.
 
-1. Identify if there are files that the [Web Crawler Cannot Get](#web-crawler-cannot-get).
+1. Identify if there are files that the [Web Crawler Cannot Get](#cannot-get).
 
 1. Submit!
