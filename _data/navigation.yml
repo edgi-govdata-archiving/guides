@@ -1,7 +1,7 @@
 # main links
 main:
-  # - title: "Internet Archive Web Crawler"
-  #  url: /guide/internet-archive-crawler/
+  - title: "Internet Archive Web Crawler"
+    url: guide/internet-archive-crawler/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
