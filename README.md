@@ -17,8 +17,21 @@ We need help! The process for contributing to these guides is covered in our [co
 
 ## Development
 
-These guides are served using Github Pages and Jekyll.
+These guides are served using Github Pages and built with Jekyll. Requirements for Jekyll include Ruby, RubyGems, GCC and Make. You can follow the [Jekyll installation instructions](https://jekyllrb.com/docs/installation/).
 
-```
-$ bundle exec jekyll serve
-```
+    ```sh
+    $ gem install jekyll bundler
+    ```
+
+To develop and make changes to the website clone this repo and checkout the `gh-pages` branch:
+
+    ```sh
+    $ git clone git@github.com:edgi-govdata-archiving/guides.git
+    $ git checkout gh-pages
+    ```
+
+Once you have changes to test:
+
+    ```sh
+    $ bundle exec jekyll serve
+    ```
