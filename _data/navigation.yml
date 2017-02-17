@@ -2,8 +2,8 @@
 main:
   - title: "Internet Archive Web Crawler"
     url: internet-archive-crawler/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  - title: "Seeding the Internet Archive’s Web Crawler"
+    url: seeding-internet-archive/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
