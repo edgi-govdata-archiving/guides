@@ -2,10 +2,10 @@
 main:
   - title: "Internet Archive Web Crawler"
     url: internet-archive-crawler/
-  - title: "Seeding the Internet Archive’s Web Crawler"
+  - title: "Seeding the Internet Archive"
     url: seeding-internet-archive/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
+  - title: "Archivers App FAQ"
+    url: archivers-faq/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
