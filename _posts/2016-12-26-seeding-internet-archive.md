@@ -2,7 +2,7 @@
 title: "Seeding the Internet Archive’s Web Crawler"
 excerpt: "This guide provides instructions for seeding web pages to Internet Archive End of Term Archive using IA's Bookmarklet or EDGI's Chrome Nomination Extension."
 author: "Technoscience Research Unit and EDGI"
-creationDate: 2016-12-26
+date: 2016-12-26
 modifiedDate: 2017-02-14
 ---
 
