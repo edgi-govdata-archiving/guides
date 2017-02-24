@@ -4,8 +4,6 @@ main:
     url: internet-archive-crawler/
   - title: "Seeding the Internet Archive"
     url: seeding-internet-archive/
-  - title: "Archivers App FAQ"
-    url: archivers-faq/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
